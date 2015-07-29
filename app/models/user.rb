@@ -36,7 +36,7 @@ class User
   # field :unlock_token,    type: String # Only if unlock strategy is :email or :both
   # field :locked_at,       type: Time
 
-  field :nickname,    type: String
+  field :name,    type: String
   field :avatar_url,    type: String
 
   has_many :user_tokens
@@ -58,9 +58,9 @@ class User
     if omniauth['credentials'].blank?
       user_tokens.build(:provider => omniauth['provider'], :uid => omniauth['uid'])
     else
-      user_tokens.build(:provider => omniauth['provider'], 
+      user_tokens.build(:provider => omniauth['provider'],
                         :uid => omniauth['uid'],
-                        :token => omniauth['credentials']['token'], 
+                        :token => omniauth['credentials']['token'],
                         :expires_at => omniauth['credentials']['expires_at'])
     end
   end
