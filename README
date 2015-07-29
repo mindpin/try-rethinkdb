@@ -1,0 +1,4 @@
+RECIPES
+["analytics", "core", "deployment", "devise", "email", "extras", "frontend", "gems", "git", "init", "learn_rails", "locale", "mindpin-all", "mindpin-base", "mindpin-custom", "omniauth", "pages", "rails_bootstrap", "rails_devise", "rails_devise_pundit", "rails_devise_roles", "rails_foundation", "rails_mailinglist_activejob", "rails_omniauth", "rails_signup_download", "rails_stripe_checkout", "rails_stripe_coupons", "railsapps", "readme", "roles", "setup", "tests"]
+PREFERENCES
+{:git=>true, :apps4=>"mindpin-custom", :authentication=>"devise", :authorization=>false, :database=>"mongoid", :devise_modules=>"default", :form_builder=>"simple_form", :pages=>"none", :local_env_file=>"figaro", :templates=>"haml", :dev_webserver=>"webrick", :prod_webserver=>"webrick", :tests=>"rspec", :continuous_testing=>"none", :frontend=>"none", :email=>"none"}
