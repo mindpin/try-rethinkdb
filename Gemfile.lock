@@ -134,6 +134,7 @@ GEM
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     method_source (0.8.2)
+    middleware (0.1.0)
     mime-types (2.6.1)
     mini_portile (0.6.2)
     minitest (5.7.0)
@@ -149,6 +150,12 @@ GEM
     multi_json (1.11.2)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
+    nobrainer (0.27.0)
+      activemodel (>= 4.1.0)
+      activesupport (>= 4.1.0)
+      middleware (~> 0.1.0)
+      rethinkdb (>= 2.0.0.0)
+      symbol_decoration (~> 1.1)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     oauth2 (1.0.0)
@@ -210,6 +217,8 @@ GEM
     rake (10.4.2)
     responders (2.1.0)
       railties (>= 4.2.0, < 5)
+    rethinkdb (2.0.0.1)
+      json
     rspec-core (3.3.2)
       rspec-support (~> 3.3.0)
     rspec-expectations (3.3.1)
@@ -256,6 +265,7 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
+    symbol_decoration (1.1.0)
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (1.4.1)
@@ -298,6 +308,7 @@ DEPENDENCIES
   launchy
   mina!
   mongoid
+  nobrainer
   omniauth
   omniauth-weibo-oauth2
   pry-rails
