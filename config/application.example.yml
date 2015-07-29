@@ -1,6 +1,9 @@
 SINA_APP_KEY: 'test'
 SINA_APP_SERCET: 'test'
 SINA_REDIRECT_URI: 'http://localhost:3000/users/auth/weibo/callback'
+GMAIL_USERNAME: Your_Username
+GMAIL_PASSWORD: Your_Password
+DOMAIN_NAME: example.com
 ADMIN_NAME: First User
 ADMIN_EMAIL: user@example.com
 ADMIN_PASSWORD: changeme

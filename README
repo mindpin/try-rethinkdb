@@ -10,13 +10,13 @@ Please provide a copy of this README file when reporting any issues.
 
 
 option  Build a starter application?
-choose  Enter your selection: [mindpin-custom]
+choose  Enter your selection: [mindpin-all]
 option  Get on the mailing list for Rails Composer news?
 choose  Enter your selection: []
 option  Web server for development?
 choose  Enter your selection: [webrick]
 option  Web server for production?
-choose  Enter your selection: [webrick]
+choose  Enter your selection: [unicorn]
 option  Database used in development?
 choose  Enter your selection: [mongoid]
 option  Template engine?
@@ -26,9 +26,9 @@ choose  Enter your selection: [rspec]
 option  Continuous testing?
 choose  Enter your selection: [none]
 option  Front-end framework?
-choose  Enter your selection: [none]
+choose  Enter your selection: [bootstrap3]
 option  Add support for sending email?
-choose  Enter your selection: [none]
+choose  Enter your selection: [gmail]
 option  Authentication?
 choose  Enter your selection: [devise]
 option  Devise modules?
@@ -42,22 +42,22 @@ choose  Enter your selection: [simple_form]
 option  Add pages?
 choose  Enter your selection: [none]
 option  Set a locale?
-choose  Enter your selection: [zh-CN]
+choose  Enter your selection: [none]
 option  Install page-view analytics?
 choose  Enter your selection: [none]
 option  Add a deployment mechanism?
-choose  Enter your selection: [none]
+choose  Enter your selection: [false]
 option  Set a robots.txt file to ban spiders?
-choose  Enter your selection: []
+choose  Enter your selection: [false]
 option  Create a GitHub repository? (y/n)
-choose  Enter your selection: []
+choose  Enter your selection: [false]
 option  Add gem and file for environment variables?
 choose  Enter your selection: [figaro]
 option  Reduce assets logger noise during development?
-choose  Enter your selection: []
-option  Improve error reporting with 'better_errors' during development?
-choose  Enter your selection: []
-option  Use 'pry' as console replacement during development and test?
 choose  Enter your selection: [true]
+option  Improve error reporting with 'better_errors' during development?
+choose  Enter your selection: [true]
+option  Use 'pry' as console replacement during development and test?
+choose  Enter your selection: [false]
 option  Use or create a project-specific rvm gemset?
 choose  Enter your selection: [false]
