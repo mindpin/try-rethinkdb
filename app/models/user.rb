@@ -72,4 +72,7 @@ class User
   def email_required?
     false
   end
+
+  include Order::UserMethods
+  include UserCard::UserMethods
 end
