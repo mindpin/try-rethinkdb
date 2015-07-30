@@ -4,7 +4,7 @@ class Order
   STATES = ['UNPAY', 'PAY_FAIL', 'PAY_SUCCESS']
 
   # 订单金额
-  field :price_sum,    :type => Integer
+  field :price_sum,    :type => Integer, :default => 0
 
   field :user_id, :type => String
   # 支付成功|支付失败

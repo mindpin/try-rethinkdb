@@ -8,6 +8,18 @@ class UserCard
   field :user_id, :type => String
 
   module UserMethods
+    # 充值
+    def chong_zhi(money_count)
+      user_card = UserCard.where(:user_id => self.id.to_s)
+      if user_card.blank?
+        UserCard.create!(:user_id => self.id.to_s, :money_count => money_count)
+        return
+      end
+
+      user_card.money_count = user_card.money_count + money_count
+      user_card.save!
+    end
+
     # 查询用户账户余额
     def money_count
       user_card = UserCard.where(:user_id => self.id.to_s)
